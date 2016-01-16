@@ -25,6 +25,8 @@ function getPlayerMove(move) {
     // Write an expression that operates on a variable called `move`
     // If a `move` has a value, your expression should evaluate to that value.
     // However, if `move` is not specified / is null, your expression should equal `getInput()`.
+    var move = 
+    if move = null
     return /* Your Expression */;
 }
 
@@ -41,6 +43,23 @@ function getWinner(playerMove,computerMove) {
     // Assume that the only values playerMove and computerMove can have are 'rock', 'paper', and 'scissors'.
     // The rules of the game are that 'rock' beats 'scissors', 'scissors' beats 'paper', and 'paper' beats 'rock'.
     /* YOUR CODE HERE */
+    
+    for ( i = 0; i <= 5; i += 1) {
+        if (playerMove = 'rock' && computerMove = 'scissors') {
+        console.log('Player wins!')}
+            else if (playerMove = 'scissors' && computerMove = 'paper') {
+                console.log('Player wins!')}
+            else if (playerMove = 'paper' && computerMove = 'rock'){
+                console.log('Player wins!')}
+            else if (playerMove = computerMove){
+                console.log('Tie')}
+            else console.log('Computer Wins!!')
+            }
+            
+    }
+
+    
+    
     return winner;
 }
 
